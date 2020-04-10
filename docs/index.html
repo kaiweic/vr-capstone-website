@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Team 7: Adventure Game</title>
@@ -11,18 +9,32 @@
 
 	<link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
+
 </head>
 <body>
 
 <div id="fullpage">
 	<div class="section" id="section0">
 	    <h1>2020 VR Capstone</h1>
-		<h1>Team 7: Adventure Game</h1>
-		<p>Members:</p>
+		<h1>Team 7: Virtual Classroom</h1>
+		<br>
+		<h2>Members:</h2>
 	    <p>Kai-Wei Chang</p>
 	    <p>Cheng Ni</p>
 	    <p>Pei Lin Wu</p>
 	    <p>Sujie Zhou</p>
+	</div>
+	<div class="section" id="section1">
+		<h1>Blog 1</h1>
+		<h2>Accomplished so far</h2>
+		<p>We discussed potential project ideas that we can develop this quarter. Given the current work/learn from home order, we decided to develop a virtual classroom software that simulates a classroom setting to create a learning environment that's better than simply using video conference calls.  In addition, we learned Oculus Quest development with Unity this week. We will further explore the development environment in upcoming weeks.</p>
+		<br>
+		<h2>Project idea</h2>
+		<p>We would like to create a VR classroom to provide better learning/teaching experience than video conferencing. Our minimal goal is to create classrooms where multiple users can join as students or teacher. Teacher's view will be similar to a traditional classroom: podium, writable blackboard and a projector. Students will show up as virtual desks label by name and profile picture. For students, they can raise hands(i.e. their desk will light up to notify the teacher) and send reactions. Our stretch goal is to support more features such as breakout rooms and refine the visual design.</p>
+		<br>
+		<h2>Plans for next week</h2>
+		<p>How do we set up the classrooms and support multiple users online?</p>
+		<p>How to use Oculus's storage/file system? We want to support that the teacher can upload their slides for the class.</p>
 	</div>
 	<div class="section" id="section1">
 		<h1>Project Proposal</h1>
@@ -42,7 +54,10 @@
 <script type="text/javascript" src="examples.js"></script>
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#FF7133']
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#FF7133', '#FFC0CB'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['Home page', 'Blog 1', 'Video Pitch', 'Project Proposal', 'Team Members Intro']
     });
 </script>
 
